@@ -89,3 +89,9 @@ function turnoff()
     Citizen.Wait(notconfig.wait_time_before_next_blip)
     on = false;
 end
+
+AddEventHandler("playerDropped", function()
+    if active_leos[source] then
+        active_leos[source] = nil
+    end
+end)
