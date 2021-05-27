@@ -9,6 +9,7 @@ This is the exact same thing as RedRums except you can actually edit the code it
 * Simple to setup
 * Chose between chat or a small notification
 * Perms based
+* Checks if the weapon has a suppressor on if it does it wont do anything
 
 ## Credits
 * Discord perms [@sadboilogan](https://github.com/sadboilogan)
